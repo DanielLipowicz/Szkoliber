@@ -4,27 +4,17 @@ Otwarta platforma dla szkół: wolny rdzeń, kontrola nad danymi, swoboda hostin
 
 **Etap: start projektu.** Budujemy społeczność i poznajemy potrzeby szkół. Nie ma jeszcze gotowego systemu do wdrożenia. Pierwsze około 12 tygodni to rekrutacja współtwórców, warsztaty i decyzja o prototypie.
 
-## Landing page
+[Odwiedź stronę Szkolibra](https://daniellipowicz.github.io/Szkoliber/).
 
-Strona w języku polskim znajduje się w `docs/`. Jest statyczna, bez zależności, procesu budowania, śledzenia i zewnętrznych fontów. Działa bez JavaScriptu. Zasoby mają ścieżki względne zgodne z adresem projektu na GitHub Pages.
+## Dokumentacja do wspólnej pracy
 
-- `docs/index.html` — treści i sekcje strony.
-- `docs/styles.css` — wygląd i układ mobilny.
-- `docs/favicon.svg` — znak projektu.
-- `.github/ISSUE_TEMPLATE/udzial.yml` — formularz zgłoszenia udziału, używany przez przyciski strony.
+Zacznij od [indeksu dokumentacji](dokumentacja/README.md) oraz [zasad wkładu](CONTRIBUTING.md).
 
-Podgląd: otwórz `docs/index.html` w przeglądarce lub uruchom `node scripts/preview.mjs` i wejdź na `http://localhost:4173/Szkoliber/`.
+- [Karta projektu](dokumentacja/KARTA_PROJEKTU.md), [plan startowy](dokumentacja/PLAN_STARTOWY.md) i [backlog](dokumentacja/BACKLOG.md).
+- [Warsztaty ze szkołami](dokumentacja/WARSZTATY.md), [plan produktu](dokumentacja/PRODUKT.md) i [roadmapa M0–M6](dokumentacja/ROADMAPA.md).
+- [Architektura i wtyczki](dokumentacja/ARCHITEKTURA.md), [jakość i ryzyka](dokumentacja/JAKOSC_I_RYZYKA.md), [rejestr decyzji](dokumentacja/DECYZJE.md) oraz [szablon RFC](dokumentacja/szablony/RFC.md).
 
-## Publikacja na GitHub Pages
-
-1. Po przeglądzie zmian połącz gałąź z `master` i wypchnij do GitHuba.
-2. W repozytorium wybierz **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-3. Workflow **Publish landing page** wdroży zawartość `docs/` po zmianach na `master`. Jeśli pierwsze uruchomienie nastąpiło przed konfiguracją Pages, uruchom workflow ponownie z zakładki Actions.
-4. Oczekiwany adres po udanym wdrożeniu: `https://daniellipowicz.github.io/Szkoliber/`. Potwierdź adres w wyniku workflow; samo dodanie plików nie publikuje strony.
-
-Workflow publikuje wyłącznie `docs/`. Jeśli gałąź domyślna zostanie zmieniona, zaktualizuj oba wystąpienia `master` w `.github/workflows/pages.yml`.
-
-[Dokumentacja konfiguracji GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Materiały są robocze. Wskazują źródła, pytania otwarte i warunki odbioru; ich dodanie nie oznacza zatwierdzenia przez przyszły zespół.
 
 ## Dołącz
 
@@ -32,12 +22,11 @@ Workflow publikuje wyłącznie `docs/`. Jeśli gałąź domyślna zostanie zmien
 
 Szukamy współprowadzącego technicznego, przedstawicieli szkół i osób wspierających technologię, UX, dostępność, bezpieczeństwo, prawo i dokumentację. Zgłoszenia wymagają konta GitHub i są publiczne. Nie umieszczaj w nich danych uczniów ani informacji poufnych. Repozytorium musi mieć włączone Issues; formularz pojawi się po dodaniu go do domyślnej gałęzi.
 
-## Źródła treści
+## Pochodzenie i status treści
 
-- [Plan uruchomienia projektu i pozyskania kontrybutorów](https://docs.google.com/document/d/1ji5vyCnJCS3VfcQeWWHHNTq2E99XxUJL6yvPPx4UTHQ/edit).
-- [Plan produktu i realizacji](https://docs.google.com/document/d/1kTQu_27c7vBwrppIVYq7BXBtdieXMGNefSh22-w9Dzo/edit).
+Lokalne opracowanie materiałów wyjściowych znajduje się w [dokumentacji roboczej](dokumentacja/README.md). Treść projektu rozwijamy w plikach Markdown w repozytorium.
 
-Dokumenty używają roboczej nazwy OpenDziennik; landing page stosuje nazwę Szkoliber. Plan startowy ma pierwszeństwo przed intensywnym harmonogramem budowy produktu z dokumentu długoterminowego. Liczby 1+, 2+ i 3+ to cele fazy, nie osiągnięte wyniki. Dalsze kamienie M0–M6 są warunkową wizją bez obietnic terminów. Strona opisuje założenia bezpieczeństwa i dostępności, nie certyfikowaną zgodność istniejącego produktu.
+Materiały wyjściowe używały roboczej nazwy OpenDziennik; w repozytorium stosujemy nazwę Szkoliber. Plan startowy ma pierwszeństwo przed intensywnym harmonogramem budowy produktu z planu długoterminowego. Liczby 1+, 2+ i 3+ to cele fazy, nie osiągnięte wyniki. Dalsze kamienie M0–M6 są warunkową wizją bez obietnic terminów. Założenia bezpieczeństwa i dostępności nie oznaczają certyfikowanej zgodności istniejącego produktu.
 
 ## Licencja
 
