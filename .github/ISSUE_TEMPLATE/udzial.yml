@@ -1,0 +1,36 @@
+name: Dołącz do Szkolibra
+description: Zaproponuj pierwszy wkład lub rozmowę o potrzebach szkoły.
+title: "Chcę dołączyć do Szkolibra"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Na początek wystarczy rozmowa lub mały wkład. Zgłoszenie jest publiczne.
+        Nie wpisuj danych uczniów, danych kontaktowych ani informacji poufnych szkoły. Odpowiedź otrzymasz tutaj.
+  - type: dropdown
+    id: perspective
+    attributes:
+      label: Z jakiej perspektywy chcesz pomóc?
+      options:
+        - Dyrekcja lub administracja szkoły
+        - Nauczyciel lub wychowawca
+        - Współprowadzenie techniczne
+        - Programowanie lub infrastruktura
+        - UX lub dostępność
+        - Bezpieczeństwo, prywatność lub prawo oświatowe
+        - Dokumentacja lub społeczność
+        - Inna perspektywa
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Od czego chcesz zacząć?
+      description: Opisz propozycję wkładu lub proces szkolny, o którym chcesz porozmawiać.
+    validations:
+      required: true
+  - type: input
+    id: availability
+    attributes:
+      label: Ile czasu możesz przeznaczyć na pierwszy krok?
+      placeholder: Np. jedna rozmowa 60 minut lub jedna recenzja.
