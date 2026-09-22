@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 const root = new URL('../docs/', import.meta.url);
 const assets = new Map([
   ['/Szkoliber/', ['index.html', 'text/html; charset=utf-8']],
+  ['/Szkoliber/o-projekcie/', ['o-projekcie/index.html', 'text/html; charset=utf-8']],
   ['/Szkoliber/styles.css', ['styles.css', 'text/css; charset=utf-8']],
   ['/Szkoliber/favicon.svg', ['favicon.svg', 'image/svg+xml']],
 ]);
@@ -10,6 +11,10 @@ createServer(async (req, res) => {
   const path = new URL(req.url, 'http://localhost').pathname;
   if (path === '/' || path === '/Szkoliber') {
     res.writeHead(302, { Location: '/Szkoliber/' }).end();
+    return;
+  }
+  if (path === '/Szkoliber/o-projekcie') {
+    res.writeHead(302, { Location: '/Szkoliber/o-projekcie/' }).end();
     return;
   }
   const asset = assets.get(path);
