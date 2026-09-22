@@ -11,7 +11,7 @@ Otwarta platforma dla szkół: wolny rdzeń, kontrola nad danymi, swoboda hostin
 Zacznij od [indeksu dokumentacji](dokumentacja/README.md) oraz [zasad wkładu](CONTRIBUTING.md).
 
 - [Karta projektu](dokumentacja/KARTA_PROJEKTU.md), [plan startowy](dokumentacja/PLAN_STARTOWY.md) i [backlog](dokumentacja/BACKLOG.md).
-- [Warsztaty ze szkołami](dokumentacja/WARSZTATY.md), [plan produktu](dokumentacja/PRODUKT.md) i [roadmapa M0–M6](dokumentacja/ROADMAPA.md).
+- [Warsztaty ze szkołami](dokumentacja/WARSZTATY.md), [plan dwóch sesji Event Storming](dokumentacja/EVENT_STORMING.md), [plan produktu](dokumentacja/PRODUKT.md) i [roadmapa M0–M6](dokumentacja/ROADMAPA.md).
 - [Architektura i wtyczki](dokumentacja/ARCHITEKTURA.md), [jakość i ryzyka](dokumentacja/JAKOSC_I_RYZYKA.md), [rejestr decyzji](dokumentacja/DECYZJE.md) oraz [szablon RFC](dokumentacja/szablony/RFC.md).
 
 Materiały są robocze. Wskazują źródła, pytania otwarte i warunki odbioru; ich dodanie nie oznacza zatwierdzenia przez przyszły zespół.

@@ -8,6 +8,8 @@ Poznać rzeczywiste procesy, odpowiedzialności oraz momenty ryzyka. Rozmowę pr
 
 Pierwsze spotkanie: dyrekcja i personel szkoły, w miarę możliwości nauczyciel, administracja i osoba odpowiedzialna za technologię. Dalsze badania powinny uwzględnić także uczniów, opiekunów, specjalistów i inspektora ochrony danych; udział wymaga odpowiedniego uzgodnienia ze szkołą.
 
+Jeżeli celem jest wspólne odkrycie pełnej osi procesów i szczegółowe rozpoznanie jednego z nich, użyj osobnego [planu dwóch sesji Event Storming](EVENT_STORMING.md). Poniższa agenda 90 minut służy krótszej rozmowie badawczej i nie zastępuje tych sesji.
+
 ## Przed spotkaniem
 
 - [ ] Uzgodnij cel, uczestników, termin, sposób notowania oraz zakres publikacji wyników.

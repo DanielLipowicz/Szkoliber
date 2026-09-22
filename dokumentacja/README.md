@@ -12,6 +12,7 @@ Materiały do wspólnego rozwijania projektu przez szkoły, kontrybutorów i prz
 | [Plan startowy](PLAN_STARTOWY.md) | Pierwsze 12 tygodni, role i kryteria przejścia do prototypu |
 | [Backlog startowy](BACKLOG.md) | Małe zadania z kryteriami ukończenia i miejscem na właściciela |
 | [Warsztaty ze szkołami](WARSZTATY.md) | Agenda i szablon wyników badania potrzeb |
+| [Dwie sesje Event Storming](EVENT_STORMING.md) | Big Picture, Process Level i przejście do BDD |
 | [Plan produktu](PRODUKT.md) | Użytkownicy, zakres pilotażu i definicja gotowości |
 | [Roadmapa](ROADMAPA.md) | Kamienie M0–M6 i warunki zakończenia etapów |
 | [Architektura i wtyczki](ARCHITEKTURA.md) | Hipotezy techniczne i zakres pierwszej propozycji architektury |
